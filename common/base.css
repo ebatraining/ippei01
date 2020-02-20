@@ -13,7 +13,7 @@ body{
 	padding:0;
 	color:#333;
 	background:#e2eff5 url(../img/bg.jpg) center repeat-y;
-	font-family: Meiryo, Verdana, "ƒƒCƒŠƒI", "‚l‚r ‚oƒSƒVƒbƒN", Hiragino Kaku Gothic Pro, Osaka;
+	font-family: Meiryo, Verdana, "ï¿½ï¿½ï¿½Cï¿½ï¿½ï¿½I", "ï¿½lï¿½r ï¿½oï¿½Sï¿½Vï¿½bï¿½N", Hiragino Kaku Gothic Pro, Osaka;
 	font-size:13px;
 	line-height:1.7;
 	text-align:center;
@@ -44,12 +44,13 @@ div#titlebox{
 }
 
 div#footer_outer{
+    padding-top: 15px;
 	background:#287ccb;
 	height:220px;
 }
 
 div#footer{
-	margin:0 auto;
+    margin:0 auto;
 	padding:15px 0 0;
 	width:960px;
 	text-align:center;
@@ -364,3 +365,24 @@ a:hover{text-decoration:underline;color:#1671ed;}
 .voice_nameyh1{font-weight:bold; color:#D42E30; text-align:right;}
 .voice_nameyh2{font-weight:bold; color:#8958C1; text-align:right;}
 .voice_namess{font-weight:bold; color:#7E6E17; text-align:right;}
+
+
+.footerwrap{
+    display: flex;
+}
+
+.footerwrap div,
+.footerwrap ul{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.footerwrap div{
+    text-align: right;
+    padding-right: 100px;
+}
+
+.footerwrap ul{
+    text-align: left;
+    padding-left: 100px;
+}
